@@ -1,0 +1,17 @@
+.TopBrands{
+    width: 100vw;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    padding: 0px 75px;
+}
+.BrandImages{
+    width: 125px;
+    height: 125px;
+    border-radius: 55%;
+}

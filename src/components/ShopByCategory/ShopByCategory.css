@@ -1,0 +1,29 @@
+.ShopByCategory{
+    width: 100vw;
+    height: 400px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+.CategoryHeading{
+    height: 50px;
+    padding-left: 70px;
+    font-size: large;
+    font-weight: 500;
+}
+.CategoryList{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(210px,1fr));
+    gap: 20px;
+    row-gap: 50px;
+}
+.CategoryItem{
+    width: 150px;
+    height: 175px;
+    margin: auto;
+    text-align: center;
+}
+.CategoryImage{
+    width: 100px;
+    height: 125px;
+    border-radius: 5px;
+}

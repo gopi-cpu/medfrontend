@@ -1,0 +1,36 @@
+.HeadingHealthConcers{
+    box-sizing: border-box;
+    width: 100vw;
+    font-size: large;
+    margin: 0px;
+    margin-top: -4px;
+    padding: 15px 50px 0px;
+    background-color: whitesmoke;
+    font-weight: 500;
+}
+.HealthConcerns{
+    min-width: 100vw;
+    max-width: auto;
+    height: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+.HealthProblemsList{
+    width: auto;
+    height: 200px;
+    margin: auto;
+    align-content: center;
+}
+.HealthProblemImage{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: auto 50px;
+}
+.HealthProblemName{
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+In shop by health concers part need to implement a feature on clicking a button the scoller needs to mone left and right.
+add border to ShopByCategory Section
+Adjust Nearby Shops part
+Import See All Sections if required
+Make Upper nav bar , footer static and study in all pages
+Shopping producds mainly should be three categories offers,recently Ordered,Trending(recomendations)
+(Product shopping page med plus Mart is good)
+Need to work on medical stores nearby

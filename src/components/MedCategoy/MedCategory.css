@@ -1,0 +1,28 @@
+.MedCategory{
+    width: 100vw;
+    height: 125px;
+    margin-top: 35px;
+    background-color: whitesmoke;
+    align-content: center;
+    /* border: 2px solid black; */
+}
+.MedCategoryList{
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    cursor: pointer;
+}
+.MedCategoryListItem{
+    width: 17.5%;
+    height: 70%;
+    border-radius: 25px;
+    /* border: 2px solid black; */
+    background-color: bisque;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    font-weight: 700;
+}

@@ -1,0 +1,79 @@
+.Navbar{
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+.Logo{
+    width: 150px;
+    height: 50px;
+}
+.Nav-hero{
+    width: 60vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Location{
+    width: 9vw;
+    height: 40px;
+    font-size: 16px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-right: 3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.city{
+    width: 6.5vw;
+    margin: 4px;
+}
+.SearchBar{
+    width: 45vw;
+    height: 40px;
+    background-color: aliceblue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SearchBar>input:focus{
+    border: none;
+    outline: none;
+}
+.Search-input{
+    width: 40vw;
+    background-color: aliceblue;
+    border: none;
+}
+.Login{
+    /* border: 1px solid black; */
+    width: 12vw;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: rgb(31, 31, 31);
+}
+.cart{
+    /* border: 1px solid black; */
+    width: 10vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(31, 31, 31);
+}
+.fa-cart-shopping{
+    margin-right: 5px;
+}

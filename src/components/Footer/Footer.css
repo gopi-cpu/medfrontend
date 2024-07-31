@@ -1,0 +1,62 @@
+.Footer{
+    width: 100vw;
+    height: 350px;
+    background-color: rgb(14, 12, 8);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Services{
+    width: 33%;
+    height: 100%;
+    color: rgb(104, 109, 109);
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.ServicesList{
+    list-style: none;
+    width: 350px;
+    height: 80%;
+    position: relative;
+    top: 25%;
+    margin: auto;
+}
+.ServicesListItem{
+    margin: 4px;
+}
+.ConnectUs{
+    width: 33%;
+    height: 100%;
+    color: rgb(104, 109, 109);
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.ConnectUsList{
+    list-style: none;
+    width: 350px;
+    height: 80%;
+    position: relative;
+    top: 25%;
+    margin: auto;
+}
+.ConnectUsListItem{
+    margin: 4px;
+}
+.AboutUs{
+    width: 33%;
+    height: 100%;
+    color: rgb(104, 109, 109);
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.AboutUsList{
+    list-style: none;
+    width: 350px;
+    height: 80%;
+    position: relative;
+    top: 25%;
+    margin: auto;
+}
+.AboutUsListItem{
+    margin: 4px;
+}

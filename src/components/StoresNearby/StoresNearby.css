@@ -1,0 +1,56 @@
+.Med-loc{
+    min-width: 100vw;
+    height: 333px;
+    /* box-sizing: border-box; */
+    /* border: 2px solid black; */
+}
+.Med-loc-head{
+    font-size: large;
+    padding: 25px 50px 0px;
+    font-weight: 600;
+}
+.Medical-stores-list{
+    min-width: 100vw;
+    padding: 5px 50px;
+    list-style: none;
+    gap: 50px;
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.Medical-Store{
+    width: 250px;
+    height: 275px;
+}
+.MSImage{
+    width: 250px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.MS-name{
+    width: 100%;
+    height: 30px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 500;
+}
+.Rattings{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.StarRatting{
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+.MS-Location{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
