@@ -6,3 +6,5 @@ Make Upper nav bar , footer static and study in all pages
 Shopping producds mainly should be three categories offers,recently Ordered,Trending(recomendations)
 (Product shopping page med plus Mart is good)
 Need to work on medical stores nearby
+On clickeing search icon it needs to target the search bar and allow to write text on search bar
+Work on navbar and footer part when cart is opened and login page as well

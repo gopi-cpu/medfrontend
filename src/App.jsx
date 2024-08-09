@@ -6,18 +6,37 @@ import Otp from './components/Otp/Otp'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
 import Footer from './components/Footer/Footer'
+import Cart from './pages/Cart/Cart'
+// import { Router } from 'express'
+import { createBrowserRouter ,RouterProvider} from 'react-router-dom'
+import HealthConcernsPage from './pages/HealthConcernsPage/HealthConcernsPage'
 
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const router= createBrowserRouter([
+    {
+      path:"/",
+      element:<Home/>
+    },
+    {
+      path:"/SignUp",
+      element:<SignUp/>
+    },
+    {
+      path:"/Cart",
+      element:<Cart/>
+    },
+    {
+      path:"/HealthConcernsPage",
+      element:<HealthConcernsPage/>
+    }
+  ])
   return (
     <>
-    {/* <SignUp/> */}
-    {/* <Otp/> */}
     <Navbar/>
-    <Home/>
-    <Footer/>
+    <RouterProvider router={router}/>
+    {/* <Footer/> */}
     </>
   )
 }

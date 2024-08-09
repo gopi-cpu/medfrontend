@@ -1,0 +1,110 @@
+.Cart{
+    min-height: 100vh;
+    max-height: auto;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.Items{
+    width: 750px;
+    min-height: 100vh;
+    max-height: auto;
+}
+.CartItemComponent{
+    width: 700px;
+    height: 150px;
+    display: flex;
+    border: 0.4px solid grey;
+    margin: 5px 5px 10px 0px;
+    border-radius: 30px;
+    align-items: center;
+
+}
+.CartItemImage{
+    width: 100px;
+    height: 100px;
+}
+.CartItemSellingPrice{
+    display: inline;
+}
+.CartItemsDetails{
+    height: 100%;
+    padding: 20px 9px 5px 25px;
+    
+}
+.Bill{
+    width: 350px;
+    height: 100vh;
+    border: 0.5px solid gray ;
+    margin-top: 20px;
+}
+.BillHead{
+    font-size: large;
+    font-weight: 500;
+    margin: 5px;
+    width: 100%;
+    height: 25px;
+}
+.TotalMRPMain{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TotalMRPHead{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.DiscountMRPMain{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DiscountMRPHead{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.DeliveryCostMain{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DeliveryCostHead{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.AmountMain{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AmountHead{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.ProceedButton{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(38, 143, 38);
+    border-radius: 30px;
+    border: 0.3px solid black;
+    margin: 12px;
+    cursor: pointer;
+}

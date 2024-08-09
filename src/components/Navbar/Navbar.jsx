@@ -3,10 +3,11 @@ import { useState } from "react";
 import "./Navbar.css";
 import { assets } from "../../assets/assets";
 import SubNavbar from "../SubNavbar/SubNavbar";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [loading, setLoading] = useState(false);
-  const handleSubmit = async (latitude,longitude) => {
+  const handleSubmit = async (latitude, longitude) => {
     // event.preventDefault();
     setLoading(true);
     // const {latitude,longitude}=
@@ -17,12 +18,12 @@ const Navbar = () => {
     };
 
     let bodyContent = JSON.stringify({
-      long:longitude,
-      lat:latitude, 
+      long: longitude,
+      lat: latitude,
     });
 
     let response = await fetch("http://localhost:4000/admin/nearbyshops", {
-      method: 'POST',
+      method: "POST",
       mode: "cors",
       body: bodyContent,
       headers: headersList,
@@ -40,14 +41,14 @@ const Navbar = () => {
       setisAuth(data.data.token);
       navigate("/");
     }
-  }
+  };
 
   function gotLocation(position) {
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
     console.log("Latitude:", latitude);
     console.log("Longitude:", longitude);
-    handleSubmit(latitude,longitude);
+    handleSubmit(latitude, longitude);
   }
   function UnknownLocation() {
     console.log("There was some issue");
@@ -62,7 +63,9 @@ const Navbar = () => {
   return (
     <>
       <div className="Navbar">
-        <img src={assets.medico} alt="" className="Logo" />
+        <a href="/">
+          <img src={assets.medico} alt="" className="Logo" />
+        </a>
         <div className="Nav-hero">
           <div className="Location">
             <i className="fa-solid fa-location-dot"></i>
@@ -82,12 +85,19 @@ const Navbar = () => {
             <i className="fa-solid fa-camera"></i>
           </div>
         </div>
-        <div className="Login">Login | SignUp</div>
-        <div className="cart">
-          <i className="fa-solid fa-cart-shopping"></i>Cart
+        <div className="Login">
+          <a href="/SignUp">Sign in | Sign Up</a>
+        </div>
+        <div className="">
+          <a href="/Cart" className="cart">
+            <i className="fa-solid fa-cart-shopping"></i>Cart
+          </a>
+        </div>
+        <div className="Offers">
+          <i className="fa-solid fa-percent"></i>Offers
         </div>
       </div>
-      <SubNavbar />
+      {/* <SubNavbar /> */}
     </>
   );
 };

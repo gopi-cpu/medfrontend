@@ -1,0 +1,18 @@
+.HealthConcernsMainP{
+    width: 1000px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 11rem 11rem 11rem 11rem;
+    grid-template-rows: 9rem 9rem 9rem;
+    border: 1px solid black;
+}
+.HealthProblemImageP{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: auto 50px;
+}
+.HealthProblemNameP{
+    margin: auto;
+}
