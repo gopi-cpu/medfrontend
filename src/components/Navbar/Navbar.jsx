@@ -3,7 +3,6 @@ import { useState } from "react";
 import "./Navbar.css";
 import { assets } from "../../assets/assets";
 import SubNavbar from "../SubNavbar/SubNavbar";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [loading, setLoading] = useState(false);

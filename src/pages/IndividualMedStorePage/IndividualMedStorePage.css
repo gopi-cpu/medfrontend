@@ -1,0 +1,33 @@
+.MedStoreDetails{
+    width: 100vw;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DetailsPart{
+    width: 35%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.ShopImage{
+    height: 45%;
+    width: 40%;
+}
+.ShopDetailsList{
+    list-style: none;
+    margin: 10px;
+}
+.ShopDetailsListItem{
+    margin: 10px;
+}
+.StoreProductsDetails{
+    width: 55%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+}
+.CategoryListP{
+    display: flex;
+    margin: 10px;
+}

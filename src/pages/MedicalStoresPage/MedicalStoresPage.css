@@ -1,0 +1,40 @@
+.Medical-Store-component{
+    width: 1000px;
+    height: 150px;
+    border: 0.5px solid grey;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.MSImageP{
+    width: 150px;
+    height: 135px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 25px;
+    /* display: inline; */
+}
+.MS-nameP{
+    margin: 20px;
+}
+.RattingsP{
+    margin: 15px;
+}
+/* .StarRattingP{
+    margin-left: 5px;
+} */
+.MS-LocationP{
+    margin: 20px;
+    font-weight: 400;
+}
+.TimeP{
+    margin-left: 20px;
+    font-weight: 300;
+}
+.Arrow{
+    position: absolute;
+    bottom: 1px;
+    left: 95%;
+}

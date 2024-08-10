@@ -10,6 +10,8 @@ import Cart from './pages/Cart/Cart'
 // import { Router } from 'express'
 import { createBrowserRouter ,RouterProvider} from 'react-router-dom'
 import HealthConcernsPage from './pages/HealthConcernsPage/HealthConcernsPage'
+import MedicalStoresPage from './pages/MedicalStoresPage/MedicalStoresPage'
+import IndividualMedStorePage from './pages/IndividualMedStorePage/IndividualMedStorePage'
 
 
 function App() {
@@ -30,6 +32,14 @@ function App() {
     {
       path:"/HealthConcernsPage",
       element:<HealthConcernsPage/>
+    },
+    {
+      path:"/MedicalStoresPage",
+      element:<MedicalStoresPage/>
+    },
+    {
+      path:"/IndividualMedStorePage",
+      element:<IndividualMedStorePage/>
     }
   ])
   return (
