@@ -6,28 +6,39 @@
     align-items: center;
     justify-content: center;
 }
-.DetailsPart{
-    width: 35%;
-    height: 100%;
-    /* border: 1px solid red; */
-}
-.ShopImage{
-    height: 45%;
+.DetailsPartIP{
     width: 40%;
+    height: 100%;
 }
-.ShopDetailsList{
-    list-style: none;
-    margin: 10px;
+.MedStoreImageMain{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.ShopDetailsListItem{
-    margin: 10px;
+.MedStoreImageIP{
+    width: 70%;
+    height: 100%;
+}
+.StoreDetailsIP{
+    width: 100%;
+    height: 50%;
+    padding: 100px;
+    gap: 10px;
+    /* text-align: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 .StoreProductsDetails{
-    width: 55%;
+    width: 60%;
     height: 100%;
-    /* border: 1px solid yellow; */
 }
 .CategoryListP{
     display: flex;
     margin: 10px;
+}
+.OffersList{
+    list-style: none;
 }

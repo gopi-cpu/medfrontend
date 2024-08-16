@@ -17,6 +17,20 @@
     overflow-x: auto;
     flex-wrap: nowrap;
 }
+.HealthConcerns::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+.HealthConcerns {
+    scrollbar-width: none; /* Hide scrollbar */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.HealthConcerns {
+    overflow: -moz-scrollbars-none; /* Old Firefox versions */
+}
+
 .HealthProblemsList{
     width: auto;
     height: 200px;
@@ -33,4 +47,16 @@
 .HealthProblemName{
     margin: auto;
     text-align: center;
+}
+.SeeMore-HC{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    border-radius: 50%;
+    position: relative;
+    right: 25px;
+    background-color: white;
 }

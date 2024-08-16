@@ -13,28 +13,42 @@
     gap: 50px;
     align-items: center;
 }
+.OfferProducts::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+.OfferProducts {
+    scrollbar-width: none; /* Hide scrollbar */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.OfferProducts {
+    overflow: -moz-scrollbars-none; /* Old Firefox versions */
+}
 .OfferProductsItem{
     height: 90%;
     border: 0.5px solid gray;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: 20px;
     margin: 0px 20px;
     padding: 5px;
 }
 .ProductImage{
-    width: 100px;
-    height: 135px;
+    width: 97px;
+    height: 125px;
     position: relative;
     left: 25%;
-    top: 5%;
+    /* top: 5%; */
     margin: auto;
     /* padding: auto; */
 }
 .ProductName{
     width: 220px;
-    height: 50px;
-    margin: 15px 2px;
-    font-weight: 600;
+    height: 69px;
+    margin: 15px 2px 0px;
+    font-weight: 500;
+    font-size: medium;
 }
 .PriceHead{
     font-weight: 500;
@@ -55,9 +69,14 @@
     align-content: center;
     width: 93%;
     height: 35px;
-    background-color: red;
+    background-color: bisque;
     border: none;
     border-radius: 20px;
     margin-left: 10px;
-    top: 3.5%;
+    top: 2.5%;
+    cursor: pointer;
 }
+.CartButton:hover{
+    background-color: rgb(202, 181, 156);
+}
+

@@ -15,3 +15,17 @@
     height: 125px;
     border-radius: 55%;
 }
+
+.TopBrands::-webkit-scrollbar {
+    display: none;
+}
+
+/* For Firefox */
+.TopBrands {
+    scrollbar-width: none; /* Hide scrollbar */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.TopBrands {
+    overflow: -moz-scrollbars-none; /* Old Firefox versions */
+}

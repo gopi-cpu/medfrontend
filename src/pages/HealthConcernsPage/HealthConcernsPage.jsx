@@ -3,7 +3,7 @@ import "./HealthConcernsPage.css";
 import { HealthProblemsList } from "../../assets/assets";
 
 const HealthConcernsPage = () => {
-  return (
+    return (
     <>
       <h2 className="HCHeading">Smart med for your health</h2>
       <div className="HealthConcernsMainP">

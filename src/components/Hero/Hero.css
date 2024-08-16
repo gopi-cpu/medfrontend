@@ -12,6 +12,14 @@
     height: 350px;
     margin: 0px;
 }
+.SmallImage{
+    /* width: 99vw;
+    margin: 5px auto; */
+    width: 100vw;
+    height: 200px;
+    margin: 50px 0px;
+
+}
 .Medical-stores-list{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(240px,1fr));

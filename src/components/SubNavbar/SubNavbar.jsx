@@ -5,12 +5,14 @@ const SubNavbar = () => {
   return (
     <div className='SubNavbar'>
       <ul className='SubNav-list'>
-        <li>Order Medicine</li>
-        <li>Medical Stores</li>
-        <li>Order with Prescription</li>
-        <li>Health Conditions</li>
-        <li>Personal Care</li>
-        <li>Doctor Appointments</li>
+        <li><a href="/AllMedicinesPage">Order Medicine</a></li>
+        <li><a href="/ProductsPage"></a>More Products</li>
+        <li><a href="/MedicalStoresPage">Medical Stores</a></li>
+        <li> <a href="/PrescriptionPage">Order with Prescription</a></li>
+        <li><a href='/DoctorAppointmentsPage'>Doctor Consultation</a></li>
+        <li><a href="/Labs">Labs</a></li>
+        <li><a href="/BloodPage">Blood Bank</a></li>
+        <li><a href="/DietPlan">Diet Plan</a></li>
       </ul>
     </div>
   )

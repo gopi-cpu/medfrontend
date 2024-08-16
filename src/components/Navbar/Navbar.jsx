@@ -81,11 +81,16 @@ const Navbar = () => {
               className="Search-input"
               placeholder="Search Medicine or Medical Stores Nearby"
             />
+            <a href="/PrescriptionPage">
             <i className="fa-solid fa-camera"></i>
+            </a>
           </div>
         </div>
         <div className="Login">
           <a href="/SignUp">Sign in | Sign Up</a>
+        </div>
+        <div className="Message">
+        <i className="fa-regular fa-message "></i>
         </div>
         <div className="">
           <a href="/Cart" className="cart">

@@ -9,9 +9,9 @@ const ShopByCategory = () => {
       <div className="CategoryList">
         {Category.map((item,index)=>{
           return(
-          <div className="CategoryItem">
-            <img src={item.CategoryImage} alt="" key={index} className='CategoryImage'/>
-            <div className="CategoryName">{item.CategoryName}</div>
+          <div className="CategoryItem" key={index}>
+            <img src={item.CategoryImage} alt="" className='CategoryImage'/>
+            <div className="CategoryName" >{item.CategoryName}</div>
           </div>
           )
         })}

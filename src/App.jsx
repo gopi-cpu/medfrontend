@@ -12,6 +12,13 @@ import { createBrowserRouter ,RouterProvider} from 'react-router-dom'
 import HealthConcernsPage from './pages/HealthConcernsPage/HealthConcernsPage'
 import MedicalStoresPage from './pages/MedicalStoresPage/MedicalStoresPage'
 import IndividualMedStorePage from './pages/IndividualMedStorePage/IndividualMedStorePage'
+import AllMedicinesPage from './pages/AllMedicinesPage/AllMedicinesPage'
+import DoctorAppointmentsPage from './pages/DoctorAppointmentsPage/DoctorAppointments'
+import PrescriptionPage from './pages/PrescriptionPage/PrescriptionPage'
+import Labs from './pages/Labs/Labs'
+import BloodPage from './pages/BloodPage/BloodPage'
+import DietPlan from './pages/DietPlan/DietPlan'
+import ProductsPage from './pages/ProductsPage/ProductsPage'
 
 
 function App() {
@@ -40,6 +47,34 @@ function App() {
     {
       path:"/IndividualMedStorePage",
       element:<IndividualMedStorePage/>
+    },
+    {
+      path:"/AllMedicinesPage",
+      element:<AllMedicinesPage/>
+    },
+    {
+      path:"/DoctorAppointmentsPage",
+      element:<DoctorAppointmentsPage/>
+    },
+    {
+      path:"/PrescriptionPage",
+      element:<PrescriptionPage/>
+    },
+    {
+      path:"/Labs",
+      element:<Labs/>
+    },
+    {
+      path:"/BloodPage",
+      element:<BloodPage/>
+    },
+    {
+      path:"/DietPlan",
+      element:<DietPlan/>
+    },
+    {
+      path:"/ProductsPage",
+      element:<ProductsPage/>
     }
   ])
   return (

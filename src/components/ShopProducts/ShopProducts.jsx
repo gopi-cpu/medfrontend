@@ -9,7 +9,7 @@ const ShopProducts = () => {
       <div className="OfferProducts">
         {OfferProducts.map((item, index) => {
           return (
-            <div className="OfferProductsItem">
+            <div className="OfferProductsItem" key={index}>
               <img src={item.ProductImage} alt="" className="ProductImage"/>
               <div className="ProductName">{item.ProductName}</div>
               <div className="ProductSellingPrice"><span className="PriceHead">Price:</span>

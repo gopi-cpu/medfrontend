@@ -17,7 +17,7 @@ a{
     height: 50px;
 }
 .Nav-hero{
-    width: 60vw;
+    width: 57vw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -62,13 +62,18 @@ a{
 }
 .Login{
     /* border: 1px solid black; */
-    width: 12vw;
+    width: 10vw;
     height: 50px;
     font-size: 18px;
     display: flex;
     justify-content: right;
     align-items: center;
     color: rgb(31, 31, 31);
+}
+.Message{
+    width: 50px;
+    display: flex;
+    justify-content: right;
 }
 .cart{
     /* border: 1px solid black; */
