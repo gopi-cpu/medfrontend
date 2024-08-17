@@ -19,6 +19,7 @@ import medstore5 from './medstore5.jpg'
 
 import star from './star.png'
 import WebImage from './WebImage.webp'
+import Doctor from './Doctor.jpg'
 
 import BabyCare from './BabyCare.webp'
 import MonsoonEssentials from './MonsoonEssentials.webp'
@@ -63,6 +64,7 @@ export const assets={
     HeroImage,
     star,
     WebImage,
+    Doctor,
 
 // Brand Images
     medstore1,
@@ -1921,4 +1923,133 @@ export const MedicalStores=[
             Itwo:medstore2
         }
     },
+]
+
+export const Doctors=[
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    },
+    {
+        DoctorPhoto:Doctor,
+        Name: 'Dr.Srinivasulu',
+        Education:"Mbbs",
+        Role:"Surgeon",
+        Experience:"10+Years",
+        Hospital:"Apollo",
+        Ratting:"4.5"
+    }
 ]

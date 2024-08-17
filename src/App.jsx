@@ -19,6 +19,7 @@ import Labs from './pages/Labs/Labs'
 import BloodPage from './pages/BloodPage/BloodPage'
 import DietPlan from './pages/DietPlan/DietPlan'
 import ProductsPage from './pages/ProductsPage/ProductsPage'
+import IndividualDoctPage from './pages/IndividualDoctPage/IndividualDoctPage'
 
 
 function App() {
@@ -75,6 +76,10 @@ function App() {
     {
       path:"/ProductsPage",
       element:<ProductsPage/>
+    },
+    {
+      path:"/IndividualDoctPage",
+      element:<IndividualDoctPage/>
     }
   ])
   return (
