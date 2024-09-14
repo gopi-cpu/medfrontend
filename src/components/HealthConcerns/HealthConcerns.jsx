@@ -19,7 +19,7 @@ const HealthConcerns = () => {
             </div>
           );
         })}
-        <a href="/HealthConcernsPage" className="SeeMore-HC"><i class="fa-solid fa-chevron-right"></i></a>
+        <a href="/HealthConcernsPage" className="SeeMore-HC"><i className="fa-solid fa-chevron-right"></i></a>
       </div>
     </>
   );

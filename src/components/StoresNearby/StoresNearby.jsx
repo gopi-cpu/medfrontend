@@ -19,7 +19,7 @@ const StoresNearby = () => {
               </div>
             )
           })}
-          <a href="/MedicalStoresPage" className="SeeMore "><i class="fa-solid fa-chevron-right"></i></a>
+          <a href="/MedicalStoresPage" className="SeeMore "><i className="fa-solid fa-chevron-right"></i></a>
         </div>
         </div>
     </div>

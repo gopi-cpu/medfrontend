@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import "./Navbar.css";
 import { assets } from "../../assets/assets";
 import SubNavbar from "../SubNavbar/SubNavbar";
+import { MedicineList } from "../../assets/assets";
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
   const [loading, setLoading] = useState(false);
   const handleSubmit = async (latitude, longitude) => {
     // event.preventDefault();
@@ -59,6 +60,25 @@ const Navbar = () => {
     );
     return position;
   }
+
+  const [searchResult,setSearchResult]=useState([]);
+  const [key,setKey]=useState("")
+  useEffect(()=>{
+    const search=async()=>{
+      try{
+        if(!key.trim()){
+          setSearchResult([])
+          return
+        }
+        // const res=await axios.get("")
+        const res={MedicineList};
+        console.log(res);
+      }catch(error){
+        console.log(error)
+      }
+    }
+    search()
+  },[key])
   return (
     <>
       <div className="Navbar">
@@ -80,14 +100,17 @@ const Navbar = () => {
             <input
               className="Search-input"
               placeholder="Search Medicine or Medical Stores Nearby"
+              value={key}
+              onChange={(e)=>setKey(e.target.value)}
             />
             <a href="/PrescriptionPage">
             <i className="fa-solid fa-camera"></i>
             </a>
           </div>
         </div>
-        <div className="Login">
-          <a href="/SignUp">Sign in | Sign Up</a>
+        <div className="Login" onClick={()=>setShowLogin(true)}>
+          Sign in
+          {/* <a href="/SignUp">Sign in | Sign Up</a> */}
         </div>
         <div className="Message">
         <i className="fa-regular fa-message "></i>

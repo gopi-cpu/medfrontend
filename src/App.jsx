@@ -24,6 +24,7 @@ import IndividualDoctPage from './pages/IndividualDoctPage/IndividualDoctPage'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [showLogin,setShowLogin]=useState(false)
   const router= createBrowserRouter([
     {
       path:"/",
@@ -84,7 +85,8 @@ function App() {
   ])
   return (
     <>
-    <Navbar/>
+    {showLogin?<SignUp setShowLogin={setShowLogin}/>:<></>}
+    <Navbar setShowLogin={setShowLogin}/>
     <RouterProvider router={router}/>
     {/* <Footer/> */}
     </>

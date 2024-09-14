@@ -79,4 +79,52 @@
 .CartButton:hover{
     background-color: rgb(202, 181, 156);
 }
-
+.food-item-counter{
+    position: relative;
+    bottom: 2px;
+    /* align-content: center; */
+    width: 93%;
+    height: 35px;
+    /* background-color: bisque; */
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    top: 2.5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+}
+.CounterMinus{
+    width: 25%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    background-color: green;
+    align-content: center;
+    text-align: center;
+}
+.CounterPlus{
+    width: 25%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    align-content: center;
+    text-align: center;
+}
+.ItemCount{
+    border: 0.3px solid rgb(213, 213, 213);
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+}

@@ -1,0 +1,133 @@
+.LabsPage{
+    padding: 75px 70px;
+}
+.LabSmallImg{
+    width: 100%;
+    height: 125px;
+    background-color: rgb(148, 218, 255);
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: xxx-large;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.LabsFilter{
+    /* display: flex; */
+    width: 27%;
+    min-height: 100vh;
+    height: auto;
+    background-color: aliceblue;
+    margin-right:2%;
+}
+.LabsFilter h4{
+    font-size: x-large;
+    font-weight: 500;
+}
+#FilterLabs{
+    width: 175px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: aliceblue;
+    font-size: medium;
+}
+.LabsList{
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 1px solid black; */
+    display: flex;
+    padding-top: 30px;
+}
+.Labs{
+    width: 69%;
+    height: auto;
+    
+}
+.LabItem{
+    width: 100%;
+    height: 150px;
+    border: 0.5px solid rgb(72, 72, 72);
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.LabImgItem{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LabImg{
+    width: 200px;
+    height: 130px;
+}
+.LabDetails{
+    padding: 10px;
+    width: 70%;
+}
+.LabName{
+    font-size: larger;
+    font-weight: 500;
+    margin: 5px;
+    position: absolute;
+    width: 70%;
+}
+.LabRatting{
+    width: 27px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* top: 1px; */
+    left: 80%;
+    margin: 5px;
+}
+.LabAddress{
+
+    position: relative;
+    top: 1px;
+    left: 45%;
+    margin: 5px;
+}
+.LabDistance{
+    position: relative;
+    left: 85%;
+    width: 80px;
+    margin: 5px;
+    top: -22px;
+}
+.LabStatus{
+    width: 70px;
+    color: green;
+    font-weight: 500;
+    margin: 5px;
+    position: absolute;
+    width: 35%;
+}
+.LabServices{
+    width: 100%;
+}
+.LabServices span{
+    width: 110px;
+    height: 35px;
+    display: inline-block;
+    background-color: blue;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+    border-radius: 15px;
+    font-size: small;
+    color: white;
+    font-weight: 500;
+    /* justify-content: center; */
+}

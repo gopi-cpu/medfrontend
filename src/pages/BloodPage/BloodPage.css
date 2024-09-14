@@ -1,0 +1,112 @@
+.BloodPageMain{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 70px 50px;
+
+}
+.BloodPageHead{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 65px;
+    display: flex;
+}
+.FindBlood{
+    width: 49%;
+    height: 100%;
+    background-color: rgb(186, 0, 0);
+    font-size: x-large;
+    font-weight: 600;
+    align-content: center;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+.FindBlood:hover{
+    background-color: red;
+}
+.DonateBlood{
+    width: 99%;
+    height: 100%;
+    background-color: rgb(186, 0, 0);
+    font-size: x-large;
+    font-weight: 600;
+    align-content: center;
+    text-align: center;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.DonateBlood:hover{
+    background-color: red;
+}
+.BloodPageContainer{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;    
+}
+.BloodFilterComp{
+    width: 30%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    padding: 75px 10px;
+}
+.BloodComp{
+    width: 69%;
+    min-height: 100vh;
+    /* border: 1px solid black; */
+}
+.BloodFilterComp h4{
+    font-size: larger;
+    font-weight: 600;
+}
+.BloodDonor{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    padding: 50px 20px;
+}
+.DonorComp{
+    width:  250px;
+    height: 250px;
+}
+.DonorImgComp{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.DonorImg{
+    width: 225px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.DonorDetails{
+    width: 100%;
+    height: 40%;
+    padding: 5px 5px 5px 15px;
+}
+.DonorName{
+    width: 175px;
+    height: 45px;
+    position: absolute;
+    display: block;
+}
+.BloodGroup{
+    position: relative;
+    top: 1px;
+    left: 85%;
+    /* margin-top: 3px; */
+    width: 35px;
+    font-weight: 500;
+    color: rgb(79, 0, 0);
+}
+.DonorAddress{
+    width: 175px;
+    height: 45px;
+    margin: 1px;
+}

@@ -20,6 +20,9 @@ import medstore5 from './medstore5.jpg'
 import star from './star.png'
 import WebImage from './WebImage.webp'
 import Doctor from './Doctor.jpg'
+import  cross_icon from './cross_icon.png'
+import remove_icon_red from './remove_icon_red.png'
+import add_icon_green from './add_icon_green.png'
 
 import BabyCare from './BabyCare.webp'
 import MonsoonEssentials from './MonsoonEssentials.webp'
@@ -65,6 +68,9 @@ export const assets={
     star,
     WebImage,
     Doctor,
+    cross_icon,
+    add_icon_green,
+    remove_icon_red,
 
 // Brand Images
     medstore1,
@@ -1933,7 +1939,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -1942,7 +1953,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -1951,7 +1967,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -1960,7 +1981,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -1969,7 +1995,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -1978,7 +2009,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -1987,7 +2023,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -1996,7 +2037,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -2005,7 +2051,12 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
     },
     {
         DoctorPhoto:Doctor,
@@ -2014,42 +2065,100 @@ export const Doctors=[
         Role:"Surgeon",
         Experience:"10+Years",
         Hospital:"Apollo",
-        Ratting:"4.5"
+        Ratting:"4.5",
+        Achievements:{
+            one:"Done 3000+ Operations in 10 years",
+            two:"Treated Many Officials Including Movie Stars",
+            three:"Awarded by AIIMS for Treating Most Critical Cases",
+        }
+    }
+    
+]
+
+export const LabsList=[
+    {
+        LabImage:medstore1,
+        LabName:"Lakshmi Diagnostic Center",
+        LabRatting:"3.5",
+        LabAddress:{
+            Area:"Chinna Bazar",
+            City:"Nellore"
+        },
+        LabDistance:"7Km",
+        LabServices:["Blood Test","Sugar Test","BP Check","Health Check Up"],
+        LabStatus:"Opened",
     },
     {
-        DoctorPhoto:Doctor,
-        Name: 'Dr.Srinivasulu',
-        Education:"Mbbs",
-        Role:"Surgeon",
-        Experience:"10+Years",
-        Hospital:"Apollo",
-        Ratting:"4.5"
+        LabImage:medstore1,
+        LabName:"Lakshmi Diagnostic Center",
+        LabRatting:"3.5",
+        LabAddress:{
+            Area:"Chinna Bazar",
+            City:"Nellore"
+        },
+        LabDistance:"7Km",
+        LabServices:["Blood Test","Sugar Test","BP Check","Health Check Up"],
+        LabStatus:"Opened",
     },
     {
-        DoctorPhoto:Doctor,
-        Name: 'Dr.Srinivasulu',
-        Education:"Mbbs",
-        Role:"Surgeon",
-        Experience:"10+Years",
-        Hospital:"Apollo",
-        Ratting:"4.5"
+        LabImage:medstore1,
+        LabName:"Lakshmi Diagnostic Center",
+        LabRatting:"3.5",
+        LabAddress:{
+            Area:"Chinna Bazar",
+            City:"Nellore"
+        },
+        LabDistance:"7Km",
+        LabServices:["Blood Test","Sugar Test","BP Check","Health Check Up"],
+        LabStatus:"Opened",
     },
     {
-        DoctorPhoto:Doctor,
-        Name: 'Dr.Srinivasulu',
-        Education:"Mbbs",
-        Role:"Surgeon",
-        Experience:"10+Years",
-        Hospital:"Apollo",
-        Ratting:"4.5"
+        LabImage:medstore1,
+        LabName:"Lakshmi Diagnostic Center",
+        LabRatting:"3.5",
+        LabAddress:{
+            Area:"Chinna Bazar",
+            City:"Nellore"
+        },
+        LabDistance:"7Km",
+        LabServices:["Blood Test","Sugar Test","BP Check","Health Check Up"],
+        LabStatus:"Opened",
     },
     {
-        DoctorPhoto:Doctor,
-        Name: 'Dr.Srinivasulu',
-        Education:"Mbbs",
-        Role:"Surgeon",
-        Experience:"10+Years",
-        Hospital:"Apollo",
-        Ratting:"4.5"
+        LabImage:medstore1,
+        LabName:"Lakshmi Diagnostic Center",
+        LabRatting:"3.5",
+        LabAddress:{
+            Area:"Chinna Bazar",
+            City:"Nellore"
+        },
+        LabDistance:"7Km",
+        LabServices:["Blood Test","Sugar Test","BP Check","Health Check Up"],
+        LabStatus:"Opened",
+    },
+    {
+        LabImage:medstore1,
+        LabName:"Lakshmi Diagnostic Center",
+        LabRatting:"3.5",
+        LabAddress:{
+            Area:"Chinna Bazar",
+            City:"Nellore"
+        },
+        LabDistance:"7Km",
+        LabServices:["Blood Test","Sugar Test","BP Check","Health Check Up"],
+        LabStatus:"Opened",
+    },
+]
+
+export const BloodDonor=[
+    {
+        DonorImage:medstore3,
+        DonorName:"Srinivasa Blood Bank",
+        BloodGroup:"O+",
+        Address:{
+            Area:"Gandhi Nagar",
+            City:"Nellore"
+        },
+        DonorContact:"9876543210",
     }
 ]

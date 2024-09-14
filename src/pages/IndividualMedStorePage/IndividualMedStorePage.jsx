@@ -4,7 +4,7 @@ import { assets, Category, MedicalStores } from "../../assets/assets";
 import ShopProducts from "../../components/ShopProducts/ShopProducts";
 
 const IndividualMedStorePage = () => {
-  const index = 2;
+  const index = 1;
   const arr = MedicalStores[index];
   const objArr = arr.Address;
   return (
