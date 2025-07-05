@@ -6,7 +6,7 @@ const SubNavbar = () => {
     <div className='SubNavbar'>
       <ul className='SubNav-list'>
         <li><a href="/AllMedicinesPage">Order Medicine</a></li>
-        <li><a href="/ProductsPage"></a>More Products</li>
+        <li><a href="/ProductsPage"></a>More Produc</li>
         <li><a href="/MedicalStoresPage">Medical Stores</a></li>
         <li> <a href="/PrescriptionPage">Order with Prescription</a></li>
         <li><a href='/DoctorAppointmentsPage'>Doctor Consultation</a></li>
